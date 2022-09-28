@@ -1,9 +1,6 @@
 import { userAccount } from "./userAccount";
+import { userPhoneNumber } from "./userPhoneNumber";
 
-export { checkExistence } from "./userAccount";
+const getUserName = () => "John Doe";
 
-export const getUserName = () => "John Doe";
-
-export const getUserPhoneNumber = () => "***********";
-
-export const getUserAccount = () => userAccount;
+export { userAccount, getUserName, userPhoneNumber };

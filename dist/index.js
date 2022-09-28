@@ -1,10 +1,6 @@
-import { userAccount } from './userAccount.js';
-export { checkExistence } from './userAccount.js';
+export { userAccount } from './userAccount.js';
+export { userPhoneNumber } from './userPhoneNumber.js';
 
 const getUserName = () => "John Doe";
 
-const getUserPhoneNumber = () => "***********";
-
-const getUserAccount = () => userAccount;
-
-export { getUserAccount, getUserName, getUserPhoneNumber };
+export { getUserName };
