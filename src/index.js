@@ -1,3 +1,13 @@
-export const getUserName = () => "John Doe";
+const { userAccount } = require("./userAccount");
 
-export const getUserPhoneNumber = () => "***********";
+const getUserName = () => "John Doe";
+
+const getUserPhoneNumber = () => "***********";
+
+const getUserAccount = () => userAccount;
+
+module.exports = {
+  getUserName,
+  getUserPhoneNumber,
+  getUserAccount,
+};
