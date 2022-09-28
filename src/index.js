@@ -1,13 +1,7 @@
-const { userAccount } = require("./userAccount");
+import { userAccount } from "./userAccount";
 
-const getUserName = () => "John Doe";
+export const getUserName = () => "John Doe";
 
-const getUserPhoneNumber = () => "***********";
+export const getUserPhoneNumber = () => "***********";
 
-const getUserAccount = () => userAccount;
-
-module.exports = {
-  getUserName,
-  getUserPhoneNumber,
-  getUserAccount,
-};
+export const getUserAccount = () => userAccount;
