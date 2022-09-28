@@ -1,10 +1,5 @@
-import { isNil } from 'lodash';
-
-const checkExistence = (variable) => !isNil(variable);
-
-const userAccount = {
-  name: "user account",
-};
+import { userAccount } from './userAccount.js';
+export { checkExistence } from './userAccount.js';
 
 const getUserName = () => "John Doe";
 
@@ -12,4 +7,4 @@ const getUserPhoneNumber = () => "***********";
 
 const getUserAccount = () => userAccount;
 
-export { checkExistence, getUserAccount, getUserName, getUserPhoneNumber };
+export { getUserAccount, getUserName, getUserPhoneNumber };
