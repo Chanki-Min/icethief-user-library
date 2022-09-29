@@ -1,6 +1,11 @@
-export { userAccount } from './userAccount.js';
-export { userPhoneNumber } from './userPhoneNumber.js';
+const userAccount = {
+  name: "user account",
+};
+
+const userPhoneNumber = {
+  number: "***********",
+};
 
 const getUserName = () => "John Doe";
 
-export { getUserName };
+export { getUserName, userAccount, userPhoneNumber };
