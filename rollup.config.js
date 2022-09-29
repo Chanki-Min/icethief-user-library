@@ -3,6 +3,6 @@ export default {
   output: {
     dir: "dist",
     format: "esm",
-    preserveModules: true,
+    preserveModules: false,
   },
 };
